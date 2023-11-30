@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>B&E</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <h1 class="titulo">B&E</h1>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">CATEGORIAS</li>
+                <li class="lista-menu__item">
+                    <a href="pag002.html" class="lista-menu__link">Homens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Mulheres</a>
+            </li>
+            </ul>
+        <img src="" alt="" class="container__imagem2">
+        </div>
+        <div class="container">
+        <a href="#"><img src="img/compra.png" alt="sacola de compras" class="container__imagem"></a>
+        <a href="#"><img src="img/usuario.png" alt="usuario" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Sua moda</h2>
+        <p class="banner__texto">Encontre seu estilo aqui</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/vestido 1.jpg" alt="vestido 1"></div>
+              <div class="swiper-slide"><img src="img/vestido 2.jpg" alt="vestido 2"></div>
+              <div class="swiper-slide"><img src="img/vestido 3.jpg" alt="vestido 3"></div>
+            </div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+            <section class="topicos">
+                <h2 class="topicos__titulo">Categorias visitados recentemente</h2>
+                <ul class="topicos__lista">
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Vestidos</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Ternos</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Camisas</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Casacos</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Sapatos</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Bolsas</a>
+                    </li>
+                </ul>
+            </section>
+          <!--CONTATOS, parte de baixo-->
+        <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Qualquer dúvida entre em contato com a gente.</p>
+            <input type="email" placeholder="Cadastre seu email" class="contato__email">
+        </section>
+
+    <hr />
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Grupo B&E</h2>
+        </footer>
+
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script>
+         const swiper = new Swiper('.swiper', {
+            spaceBetween: 100,
+            slidesPerview: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+          });
+          </script>
+    
+</body>
+</html>

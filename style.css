@@ -1,0 +1,18 @@
+@import url("style/header.css");
+@import url("style/carrossel.css");
+@import url("style/banner.css");
+@import url("style/contato.css");
+@import url("style/rodape.css");
+@import url("style/topicos.css");
+
+:root{
+    --cor-de-fundo: #DCCFAF;
+    --vermelho: #B55454;
+    --amarelo: #DCCFAF;
+    --branco-smoke: #F5F5F5;
+    --degrade: linear-gradient(90deg, rgba(158,27,27,1) 0%, rgba(150,60,60,1) 50%, rgba(222,109,109,1) 100%);
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

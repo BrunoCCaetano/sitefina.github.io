@@ -1,0 +1,11 @@
+@import url("styles/headers.css");
+@import url("styles/banners.css");
+
+:root {
+    --branco:  #F5F5F5;
+    --cor-de-fundo:  #DCCFAF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}

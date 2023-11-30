@@ -1,0 +1,53 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.pesquisa{
+    width: 24px;
+    height: 24px;
+    background-image: url(img/pesquisa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho {
+    background: rgb(158,27,27);
+    background: linear-gradient(90deg, rgba(158,27,27,1) 0%, rgba(150,60,60,1) 50%, rgba(222,109,109,1) 100%); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+.container__imagem {
+    padding: 1em;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 7%;
+    width: 15vw;
+}
+.container__botao {
+    display: none;
+}
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+.lista-menu__titulo, 
+.lista-menu__item {
+    padding: 2em;
+    background-color: white ;
+}
+.titulo{
+    position: absolute;
+    left: 45%;
+    font-size: 60px;
+
+}
